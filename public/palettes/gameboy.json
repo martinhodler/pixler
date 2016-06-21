@@ -1,0 +1,8 @@
+{
+  "name": "GameBoy",
+  "width": 4,
+  "height": 1,
+  "colors": [
+    "#9BBC0F", "#8BAC0F", "#306230", "#0F380F"
+  ]
+}
