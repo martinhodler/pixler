@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script src="js/point.js"></script>
+        <script src="js/size.js"></script>
+        <script src="js/keyhandler.js"></script>
+        <script src="js/renderer.js"></script>
+        <script src="js/brush.js"></script>
+        <script src="js/palette.js"></script>
+        <script src="js/canvasview.js"></script>
+        <script src="js/paletteview.js"></script>
+        <script src="js/editorview.js"></script>
+        <script src="js/pixler.js"></script>
+    </head>
+    <body>
+        <header>
+            <canvas id="pixler-editor-preview"></canvas>
+            <a class="btn" id="pixler-editor-save" target="_blank">Save to Image</a>
+        </header>
+        <main>
+            <div class="editor">
+              <canvas id="pixler-editor">
+              </canvas>
+            </div>
+            <div class="editor-brush-controls"></div>
+            <div class="editor-palette">
+              <canvas id="pixler-editor-palette"></canvas>
+            </div>
+            <div class="editor-palette-controls"></div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

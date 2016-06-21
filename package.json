@@ -1,0 +1,27 @@
+{
+  "name": "pixler",
+  "version": "0.0.1",
+  "description": "A little different sprite editor for pixelart",
+  "author": "Martin Hodler <martin.hodler@gmail.com>",
+  "scripts": {
+    "start": "nw public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinhodler/pixler"
+  },
+  "bugs": {
+    "url": "https://github.com/martinhodler/pixler/issues"
+  },
+  "keywords": [
+    "pixler",
+    "sprite-editor",
+    "pixelart"
+  ],
+  "dependencies": {
+    "nw": "0.15.3"
+  },
+  "devDependencies": {
+  },
+  "license": "GPL-3.0"
+}
