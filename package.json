@@ -19,7 +19,7 @@
     "pixelart"
   ],
   "dependencies": {
-    "nw": "0.15.3"
+    "nw": ">=0.23.6-1"
   },
   "devDependencies": {
   },
